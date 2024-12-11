@@ -2,32 +2,50 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="google-site-verification" content="p1uTqpR7nUoJ_wvOSRJrsaY_ZomkKuyXcDKBy5XDCV8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="google-site-verification" content="p1uTqpR7nUoJ_wvOSRJrsaY_ZomkKuyXcDKBy5XDCV8" />
     <title>Ell Store</title>
-    <meta name="google-site-verification" content="p1uTqpR7nUoJ_wvOSRJrsaY_ZomkKuyXcDKBy5XDCV8" />
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-        }
-        table {
-            margin: 0 auto;
-            border-collapse: collapse;
-            width: 80%;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Link ke file CSS eksternal -->
+</head>
+<body>
+    <header>
+        <h1>Selamat datang di Ell Store</h1>
+        <p>Temukan produk terbaik kami di sini!</p>
+    </header>
+
+    <table id="productTable">
+        <thead>
+            <tr>
+                <th>Nama Produk</th>
+                <th>Deskripsi</th>
+                <th>Harga (IDR)</th>
+                <th>Ketersediaan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laptop Gaming XYZ</td>
+                <td>Laptop gaming Spek tinggi</td>
+                <td>150.000.000</td>
+                <td>Habis terjual</td>
+            </tr>
+            <tr>
+                <td>Iphone 27 Plus Pro MAX</td>
+                <td>Smartphone Spek tinggi yang bisa rata kanan MLBB ataupun Genshin Impact</td>
+                <td>80.000.000</td>
+                <td>Habis terjual</td>
+            </tr>
+            <tr>
+                <td>Headphone Wireless Ultimate</td>
+                <td>Headphone wireless dengan jarak koneksi antar planet</td>
+                <td>1.500.000.000</td>
+                <td>Habis terjual</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script> <!-- Link ke file JavaScript eksternal -->
+</body>
+</html>
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -93,40 +111,3 @@
           }
         }
         </script>
-</head>
-<body>
-    <h1>Selamat datang di Ell Store</h1>
-    <p>Temukan produk terbaik kami di sini!</p>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Nama Produk</th>
-                <th>Deskripsi</th>
-                <th>Harga (IDR)</th>
-                <th>Ketersediaan</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Laptop Gaming XYZ</td>
-                <td>Laptop gaming Spek tinggi</td>
-                <td>150.000.000</td>
-                <td>Habis terjual</td>
-            </tr>
-            <tr>
-                <td>Iphone 27 Plus Pro MAX</td>
-                <td>Smartphone Spek tinggi yang bisa rata kanan MLBB ataupun Genshin Impact</td>
-                <td>80.000.000</td>
-                <td>Habis terjual</td>
-            </tr>
-            <tr>
-                <td>Headphone Wireless Ultimate</td>
-                <td>Headphone wireless dengan jarak koneksi antar planet</td>
-                <td>1.500.000.000</td>
-                <td>Habis terjual</td>
-            </tr>
-        </tbody>
-    </table>
-</body>
-</html>
