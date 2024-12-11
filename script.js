@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     rows.forEach(row => {
         row.addEventListener('click', function() {
-            alert(`Anda memilih produk: ${this.cells[0].innerText}`);
+            alert(`Anda memilih produk yang sudah habis: ${this.cells[0].innerText}`);
         });
     });
 });
