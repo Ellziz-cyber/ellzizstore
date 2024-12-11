@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Paturohman Abdul Aziz",
+  "additionalType": "https://schema.org/UniversityStudent",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "NIM",
+    "value": "23050768"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kabupaten Tangerang",
+    "addressRegion": "Provinsi Banten",
+    "postalCode": "14420",
+    "addressCountry": "ID"
+  },
+  "telephone": "+62-8963-0534-931",
+  "affiliation": {
+    "@type": "EducationalOrganization",
+    "name": "Universitas Yatsi Madani",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Karawaci",
+      "addressLocality": "Kota Tangerang",
+      "addressRegion": "Provinsi Banten",
+      "postalCode": "15114",
+      "addressCountry": "ID"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "021-557-265-58",
+      "contactType": "University Student Services",
+      "availableLanguage": "Bahasa Indonesia"
+    }
+  }
+}
