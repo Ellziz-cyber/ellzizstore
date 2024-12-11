@@ -1,4 +1,34 @@
 body {
+    background-color: #f0f0f0; /* Warna latar belakang */
+    background-image: url('markus-spiske-iar-afB0QQw-unsplash.jpg'); /* Ganti 'background.jpg' dengan path gambar kamu */
+    background-size: cover; /* Agar gambar menutupi seluruh layar */
+    background-repeat: no-repeat; /* Mencegah gambar berulang */
+    background-attachment: fixed; /* Gambar tetap saat halaman di-scroll */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Transparansi di header */
+}
+
+#productTable {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#productTable th, #productTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#productTable th {
+    background-color: #4CAF50;
+    color: white;
+}
+body {
     font-family: 'Arial', sans-serif;
     text-align: center;
     margin: 0;
